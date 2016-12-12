@@ -1,0 +1,414 @@
+body{
+    background-color: #5F4B66;
+}
+
+h1{
+    /*color: #C9C9C9;*/
+    /*color: #ccd1d7;*/
+    color: #daf2dc;
+}
+
+
+
+h4{
+    color: #FFFFFA;
+    font-size: 30px;
+}
+
+h5{
+  font-size: 80px;
+  color: #daf2dc;
+}
+
+a{
+    color: #FFFFFA;
+}
+
+p{
+    color: #FFFFFA;
+}
+
+.subtxt{
+  padding-bottom: 30px;
+}
+
+/******** Customize nav ********/
+.nav{
+  background-color: #2C1320;
+  padding-top: 10px;
+  padding-bottom: 0px;
+  
+}
+.nav > li > a{
+  color: #E4FDE1;
+}
+
+#jumbonav{
+    min-height: 75px;
+    /*drop shadow???*/
+}
+/*
+.nav > li > a:hover{
+  color: #028090;
+}*/
+/*
+.nav > .active{
+  background-color: #028090;
+}*/
+.nav > li > a:hover{
+  background-color: #0b3442;
+}
+.nav > li > a:focus{
+  color: #f45b69;
+  background-color: transparent;
+}
+.logo{   
+  
+  margin-left: 10%;
+  /*background-image: url("/imgs/logo.png");
+  background-size: contain;*/
+}
+
+.logo > a:hover{
+  background-color: transparent;
+  text-decoration: none;
+}
+.logo > a:focus{
+  background-color: transparent;
+  text-decoration: none;
+}
+
+.stack{
+    box-shadow: 0px 1px 2px 0px black;
+}
+
+.accordion-container{
+  width: 80%;
+}
+
+/******** Customize Jumbotron *********/
+.jumbotron{
+  background-color: #8797AF;
+  min-height: 600px;
+  margin-bottom: 0px;
+}
+.jumbotron > .container{
+  width: 50%;
+  margin: auto;
+  opacity: 0.9;
+  color: #E4FDE1;
+}
+
+/******** Customize Jumbotron Heading ********/
+.jumbotron-heading{
+    font-size: 55px;
+    text-align: center;
+}
+
+
+.panel-heading-custom{
+    min-height: 100px;
+    background-color: #8797AF;
+    padding: 0px;
+}
+
+
+.panel-collapse-custom{
+    min-height: 300px;
+    background-color: #56667A;
+}
+
+.panel-custom{
+  border: none;
+}
+
+.panel-body-custom{
+  border: none;
+}
+
+.panel-heading-custom > a{
+  min-width: 100%;
+  min-height: 100%;
+  margin: 0px;
+  padding: 0px;
+}
+
+.panel-heading-custom > a:hover{
+  text-decoration: none;
+}
+
+.panel-heading-custom > a:focus{
+  text-decoration: none;
+}
+
+.panel-heading-content{
+  width: 100%;
+  height: 100%;
+  margin: 0px;
+  padding-top: 25px;
+  padding-top: 70px;
+  padding-left: 25px;
+  font-size: 35px;
+}
+
+#projects{
+    min-height: 700px;
+}
+
+#skills{
+    background-color: #8797AF;
+    min-height: 700px;
+}
+
+#about{
+    /*min-height: 650px;*/
+}
+
+/******** Customize Project Rows **********/
+.row-proj{
+    background-color: beige;
+    height: 75px;
+}
+
+.row-proj > .col-md-4{
+    height: inherit;
+    background-color: #456990;
+    font-size: 35px;
+    text-align: center;
+}
+
+.row-proj > .col-md-7{
+	padding: 0px;
+}
+
+.row-proj > .col-md-7 > a > img{
+	height: 75px;
+}
+
+/*
+#proj-1-link{
+	display: block;
+	background-image: url("/imgs/UCEventBK.png");
+	background-repeat: repeat-x;
+	background-size: contain;
+}
+
+#proj-2-link{
+	display: block;
+	background-image: url("/imgs/BitErrorBK.png");
+	background-repeat: repeat-x;
+	background-size: contain;
+}
+
+#proj-3-link{
+	display: block;
+	background-image: url("/imgs/Youtube-DLBK.png");
+	background-repeat: repeat-x;
+	background-size: contain;
+}
+*/
+
+
+#proj-1{
+	/*
+	background: url('/imgs/UCEvent.png') no-repeat;
+	background-size: 100%;*/
+	
+	background: url("../imgs/UCEvent.png") no-repeat center top;
+	/*background-size: 100%;*/
+	background-size: cover;
+}
+
+.proj-1-collapse{
+	background: url("../imgs/UCEventBody.png") no-repeat center top;
+	background-size: cover;
+}
+
+#proj-1-body{
+	min-width: 1px;
+	max-width: 500px;
+	margin: 0px auto;
+	border-style: none;
+    font-size: 28px;
+}
+
+#proj-2{
+	background: url("../imgs/ErrorRate.png") no-repeat center top;
+	background-size: cover;
+}
+
+.proj-2-collapse{
+	background: url("../imgs/ErrorRateBody.png") no-repeat center top;
+	background-size: cover;
+}
+
+#proj-2-body{
+  /*
+    min-width: 55%;
+    max-width: 100%;
+  */
+    width: 50%;
+	border-style: none;
+    font-size: 28px;
+    color: #FFFFFA;
+}
+
+#proj-3{
+	background: url("../imgs/YoutubeDL.png") no-repeat center top;
+	background-size: 100% 100%;
+    background-color: #6b2f2f;
+}
+
+.proj-3-collapse{
+	background: url("../imgs/YoutubeDLBody.png") no-repeat center top;
+	background-size: 100%;
+    background-color: #6b2f2f;
+}
+
+#proj-3-body{
+  /*
+    min-width: 55%;
+    max-width: 100%;
+  */
+    width: 40%;
+	border-style: none;
+    font-size: 28px;
+    font-weight: 600;
+    color: #511818;
+}
+
+.linkspan{
+	width: 100%;
+	height: 100%;
+	position: absolute;
+	right: 0;
+	top: 0;
+}
+.widthspan{
+	width: 100%;
+}
+
+.heightspan{
+    height: 100%;
+}
+
+.row-skills{
+	padding: 0px 150px;
+}
+
+.col-helper{
+	background-color: cadetblue;
+}
+
+.letterpress{
+	text-shadow: 0px 1px 1px #4d4d4d;
+	color: #222;
+}
+
+.letteremboss{
+    text-shadow: -1px -1px 1px #fff, 1px 1px 1px #000;
+    margin-bottom: 10px;
+}
+
+.boxlayover{
+	box-shadow: 1px 1px 1px #4d4d4d;
+}
+
+.centerBlock{
+  display: table;
+  margin: 0 auto;
+}
+
+
+
+.project-content-body{
+  min-height: 500px;
+}
+
+
+.project-head{
+  padding: 0;
+}
+
+#ucevent-head{
+  min-height: inherit;
+  background: url("../imgs/UCEvent.png") no-repeat center;
+  background-size: cover;
+}
+
+#errorrate-head{
+  min-height: inherit;
+  background: url("../imgs/ErrorRateBody.png") no-repeat center;
+  background-size: cover;
+}
+
+#youtubepl-head{
+  min-height: inherit;
+  background: url("../imgs/youtubedl-head.png") no-repeat center;
+  background-size: cover;
+}
+
+
+#footer-custom{
+  padding-top: 15px;
+  padding-bottom: 15px;
+  background-color: #2C1320;
+  font-size: 30px;
+  color: #FFFFFA; 
+}
+
+.footer-text{
+  color: #daf2dc;;
+}
+
+
+#terminal{
+  width: 660px;
+  height: 442px;
+  background: url("../imgs/Screenshot-Terminal.png") no-repeat center;
+  background-size: cover;
+}
+
+.text {
+  margin-top: 35px;
+  display: inline-block;
+  font-family: Monaco, Arial, Helvetica, sans-serif;
+  line-height: 24px;
+  font-size: 24px;
+  color: white;
+}
+
+/* This (.blinking-cursor) ARE the only styles required for the animation. */
+.blinking-cursor {
+  /* Remove display: inline-block if not required to be on the same line as text etc */
+  margin-top: 35px;
+  display: inline-block;
+  background-color: white;
+  vertical-align: top;
+  /* Put a small margin between the cursor and text */
+  margin-left: 4px;
+  width: 4px;
+  /* Set height to the line height of .text */
+  height: 24px;
+  /* 
+  Animation paramaters:
+  blink = animation-name, 
+  1s = animation-duration, 
+  linear = animation-timing-function,
+  infinite = animation-iteration-count
+  */
+  -webkit-animation: blink 1s step-end infinite;
+  animation: blink 1s step-end infinite;
+}
+
+@-webkit-keyframes blink {
+  0% { opacity: 1.0; }
+  50% { opacity: 0.0; }
+  100% { opacity: 1.0; }
+}
+
+@keyframes blink {
+  0% { opacity: 1.0; }
+  50% { opacity: 0.0; }
+  100% { opacity: 1.0; }
+}
